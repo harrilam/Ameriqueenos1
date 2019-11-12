@@ -1,3 +1,6 @@
-<h1> hi </h1>
-<p> hello </p>
-<p> testing 1 2 3 </p>
+<!DOCTYPE html>
+<HTML>
+
+  <h1> hi </h1>
+  <p> hello </p>
+  <p> testing 1 2 3 </p>
