@@ -1,20 +1,10 @@
-# CFG Week One
-## Intro to the world of the web and HTML
+# Ameriqueenos
+## About our website
 
-Welcome to Code First Girls!
+Welcome to the Coffee Hive!
 
-To complete this exercise, click on the green `Clone or Download` button on the top right, and select the `Download ZIP` option.
+Our website starts with a homepage, where you can select the type of coffee you're interested in.
 
-Unzip the folder and move it into your `coding_course` folder. Then, open the whole folder in Atom.
+Click on the coffee you want to find more about and you'll come to a page all about that coffee type.
 
-*Top tip! You can do this by dragging the folder onto the Atom icon on Macs*
-
-## Task one
-Open the file `example.html` in Chrome and look around with the developer tools. What HTML tags can you see, and what do you think they stand for?
-
-## Task two
-Open the file `index.html` in your text editor and in Chrome, change it into valid HTML file so that it looks like `solution.jpg`. Make sure to add the `doctype`, `html`, `head`, and `body` tags!
-
-
-## Extension task
-Create a new file called `html-cheatsheet.html`. In here write down all you can know about HTML and the different tags from the lesson and from the example page. Make sure to mark it all up with valid HTML, and make sure that it is properly indented!
+*Top tip! The 'Surprise me' button will bring up something fun!*
