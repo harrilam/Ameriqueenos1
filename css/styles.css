@@ -17,10 +17,6 @@ h1 {
   font-size: 5em;
 }
 
-h2 {
-  font-size: 2.5em;
-}
-
 h3 {
   font-size: 1.5em;
 }
@@ -30,6 +26,12 @@ img {
   padding: 20px;
   margin: 0 auto;
   border-radius: 130px;
+  justify-content:
+}
+
+#americano {
+  display: flex;
+  justify-content: center;
 }
 
 p {
