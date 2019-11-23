@@ -2,18 +2,51 @@ body {
   color: rgb(88, 81, 90);
   font-family: arial, sans-serif;
   margin: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 700px;
 }
 
 div {
-  min-height: 100vh;
+  text-align: justify;
+  min-height: 20vh;
   width: 100vw;
+}
+
+.container {
+  padding: 10px 30px 10px 30px;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+
+.col-8 {
+  min-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 30px 0px 30px;
+}
+
+.col {
+  min-width: 350px;
+  padding: 60px 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.row {
+  display: flex;
+}
+
+div.column {
+  flex: 50%;
 }
 
 h1 {
   text-align: center;
 }
 
-h1 { font-family: "Lucida Bright", Georgia, serif;
+h1 {
+  font-family: "Lucida Bright", Georgia, serif;
   font-size: 75px;
   font-style: normal;
   font-variant: normal;
@@ -23,11 +56,12 @@ h1 { font-family: "Lucida Bright", Georgia, serif;
 img {
   display: flex;
   padding: 0px;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 30px;
 }
 
 p {
+  font-family: "Lucida Bright", Georgia, serif;
   width: 40%;
   margin: 0 auto;
   font-size: 1.5em;
@@ -35,15 +69,19 @@ p {
 
 a {
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 ol {
+  font-family: "Lucida Bright", Georgia, serif;
   list-style: none;
   padding: 20px;
   margin-bottom: 10%;
   font-size: 1.5em;
   display: flex;
   justify-content: space-evenly;
+  text-decoration: none;
+
 }
 
 
@@ -61,11 +99,19 @@ div.contrast {
 }
 
 ul {
-  list-style: none;
-  display: flex;
+  font-size: 1.5em;
+  font-family: "Lucida Bright", Georgia, serif;
+  list-style-type:square;
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 50px;
 }
 
-li {
+ul li {
+  background-color: #f6f6f6;
+  padding: 12px;
   margin: 0 20px
   transition: 0.6s ease;
 }
