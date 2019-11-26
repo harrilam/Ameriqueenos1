@@ -4,14 +4,19 @@ body {
   font-family: arial, sans-serif;
   margin: 0px;
   min-width: 100%;
-  max-width: 100%;
+  /* max-width: 100%; */
   min-height: 700px;
 }
 
 div {
   text-align: left;
   min-height: 20vh;
-  width: 100vw;
+  /* width: 100vw; */
+}
+
+.row {
+  display: flex;
+
 }
 
 div.container {
@@ -21,10 +26,10 @@ div.container {
 }
 
 div.left {
-  width: 47.5%;
+  width: 47%;
   margin-left: 0;
-  margin-right: 2.5%;
-  background-color: gray;
+  margin-right: 3%;
+  background-color: #FFF7DB;
 }
 
 div.left p {
@@ -32,10 +37,10 @@ div.left p {
 }
 
 div.right {
-  width: 45%;
-  padding-left: 4%;
+  width: 47%%;
+  padding-left: 2rem;
   margin-left: 1%;
-  background-color: gray;
+  background-color: #FFF7DB;
 }
 
 h1 {
