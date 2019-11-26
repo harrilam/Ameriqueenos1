@@ -6,19 +6,15 @@ body {
 }
 
 div {
-  min-height: 100vh;
+  min-height: 20em;
 }
 
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
 }
 
 h1 {
   font-size: 5em;
-}
-
-h3 {
-  font-size: 1.5em;
 }
 
 .wrapper {
@@ -28,18 +24,47 @@ h3 {
   grid-auto-rows: minmax(100px, auto);
 }
 
+.americano, .latte, .cappuccino, .espresso, .mocha, .surprise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+
 .americano {
   grid-column: 1;
   grid-row: 1;
-  display: flex;
-  border-radius: 30px;
-  justify-content: flex-end;
+}
+
+.latte {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cappuccino {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.espresso {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.mocha {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.surprise {
+  grid-column: 3;
+  grid-row: 2;
 }
 
 img {
-  display: flex;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 130px;
-  justify-content:
+  border-radius: 5em;
+  height: 10em;
+  object-fit: cover;
 }
