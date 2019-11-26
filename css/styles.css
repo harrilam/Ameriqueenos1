@@ -32,14 +32,10 @@ h3 {
 .americano {
   grid-column: 1;
   grid-row: 1;
+  border-radius: 30px;
   justify-content: flex-end;
 }
 
-
-#americano {
-  display: flex;
-  justify-content: center;
-}
 
 p {
   width: 40%;
