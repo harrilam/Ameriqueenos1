@@ -116,10 +116,10 @@ h2 {
 }
 
 #rotator {
--webkit-transition: all 1s linear;
--moz-transition: all 1s linear;
--o-transition: all 1s linear;
--ms-transition: all 1s linear;
+-webkit-transition: all 3s linear;
+-moz-transition: all 3s linear;
+-o-transition: all 3s linear;
+-ms-transition: all 3s linear;
 }
 
 /* #rotator img:hover {
@@ -147,7 +147,7 @@ transform: rotate(360deg);
   padding: 10px;
   margin: 0 auto;
   border-radius: 50%;
-  height: 20em;
-  width: 20em;
+  height: 30em;
+  width: 30em;
   object-fit: cover;
 }
