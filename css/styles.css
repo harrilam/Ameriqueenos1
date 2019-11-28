@@ -1,7 +1,7 @@
 body {
   color: brown;
   background-color: #E2C1A5;
-  font-family: arial, sans-serif;
+  font-family: "Lucida Bright", Georgia, serif;
   margin: 0px;
 }
 
@@ -73,7 +73,7 @@ img {
   text-align: center;
 }
 
-.a-button {
+.a-button, .e-button, .c-button, .s-button, .m-button, .l-button {
   background-color: brown;
   border: none;
   padding: 15px;
@@ -82,4 +82,5 @@ img {
   display: inline-block;
   font-size: 16px;
   border-radius: 50%;
+  font-family: "Lucida Bright", Georgia, serif;
 }
