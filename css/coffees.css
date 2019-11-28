@@ -127,7 +127,17 @@ transform: rotate(360deg);
 
 #rotator {
   -webkit-animation: image-spin 5s infinite; /* Safari 4+ */
-  -moz-animation:    image-spin 5s infinite; /* Fx 5+ */
-  -o-animation:      image-spin 5s infinite; /* Opera 12+ */
-  animation:         image-spin 5s infinite; /* IE 10+, Fx 29+ */
+  -moz-animation: image-spin 5s infinite; /* Fx 5+ */
+  -o-animation: image-spin 5s infinite; /* Opera 12+ */
+  animation: image-spin 5s infinite; /* IE 10+, Fx 29+ */
+  border-radius: 50%;
+}
+
+.spinner {
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 20em;
+  width: 20em;
+  object-fit: cover;
 }
