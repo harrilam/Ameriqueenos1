@@ -1,0 +1,133 @@
+.navbar-light {
+  background-color: #BFEFFF;
+}
+
+body {
+  background-color: #E2C1A5;
+  color: rgb(88, 81, 90);
+  font-family: arial, sans-serif;
+  margin: 0px;
+  min-width: 100%;
+  /* max-width: 100%; */
+  min-height: 700px;
+}
+
+div {
+  text-align: left;
+  min-height: 20vh;
+  /* width: 100vw; */
+}
+
+.row {
+  display: flex;
+
+}
+
+div.container {
+  padding: 10px 30px 10px 30px;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+
+div.left {
+  width: 47%;
+  margin-left: 0;
+  margin-right: 3%;
+  background-color: #FFF7DB;
+}
+
+div.left p {
+  width: 100%;
+}
+
+div.right {
+  width: 47%%;
+  padding-left: 2rem;
+  margin-left: 1%;
+  background-color: #FFF7DB;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 75px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 150px; }
+
+img {
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+p {
+  font-family: "Lucida Bright", Georgia, serif;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+div.contrast {
+  background-color: rgb(254, 242, 214);
+  color: rgb(232,147,246);
+  padding-right: 30px;
+}
+
+div.contrast {
+  ...
+}
+
+ul {
+  font-size: 1.5em;
+  font-family: "Lucida Bright", Georgia, serif;
+  list-style-type:square;
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 50px;
+}
+
+ul li {
+  padding: 0px;
+  margin: 20px
+  transition: 0.6s ease;
+}
+
+#rotator {
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
+-ms-transition: all 1s linear;
+}
+
+/* #rotator img:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+} */
+
+@keyframes image-spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#rotator {
+  -webkit-animation: image-spin 5s infinite; /* Safari 4+ */
+  -moz-animation:    image-spin 5s infinite; /* Fx 5+ */
+  -o-animation:      image-spin 5s infinite; /* Opera 12+ */
+  animation:         image-spin 5s infinite; /* IE 10+, Fx 29+ */
+}

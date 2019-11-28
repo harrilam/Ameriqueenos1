@@ -2,58 +2,52 @@
 <html>
 <head>
   <title>Ameriqueenos</title>
-  <h2>What's your brew?</h2>
-  <button type="button" class="btn btn-outline-primary">Primary</button>
-<button type="button" class="btn btn-outline-secondary">Secondary</button>
-<button type="button" class="btn btn-outline-success">Success</button>
-<button type="button" class="btn btn-outline-danger">Danger</button>
-<button type="button" class="btn btn-outline-warning">Warning</button>
-<button type="button" class="btn btn-outline-info">Info</button>
-<button type="button" class="btn btn-outline-light">Light</button>
-<button type="button" class="btn btn-outline-dark">Dark</button>
-  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
 <body>
-  <div class=“container”>
-  <div>
-    <h3>Select your coffee</h3>
-    <img src="coffee.jpg" alt="Americano" width="200px">
+  <h1>What's your brew?</h1>
+  <h2>Select your coffee below to find local coffee houses nearby:</h2>
+
+  <div class="wrapper">
+    <div class="americano">
+      <a href="americano.html"><img src="americano.jpeg" alt="Americano" width="200px"></a>
+      <a href="americano.html" class="a-button">Americano</a>
+    </div>
+
+    <div class="latte">
+      <a href="latte.html"><img src="latte.jpeg" alt="Latte" width="200px"></a>
+      <a href="latte.html" class="l-button">Latte</a>
+    </div>
+
+    <div class="cappuccino">
+      <a href="cappuccino.html"><img src="cappuccino.jpg" alt="Cappuccino" width="200px"></a>
+      <a href="cappuccino.html" class="c-button">Cappuccino</a>
+    </div>
+
+    <div class="espresso">
+      <a href="espresso.html"><img src="espresso.jpg" alt="Espresso" width="200px"></a>
+      <a href="espresso.html" class="e-button">Espresso</a>
+    </div>
+
+    <div class="mocha">
+      <a href="mocha.html"><img src="mocha.jpeg.jpg" alt="Mocha" width="200px"></a>
+      <a href="mocha.html" class="m-button">Mocha</a>
+    </div>
+
+    <div class="surprise">
+      <a href="surprise.html"><img src="surprise-me.jpg" alt="Surprise" width="200px"></a>
+      <a href="surprise.html" class="s-button">Surprise me</a>
+    </div>
+</div>
+
+  <div class="contact-us">
+    <p>Fancy hearing more from us? Sign up here:</p>
+    <input type="email" name="example@example.com">
+    <button>Submit</button>
   </div>
 
-<div>
-  <p>I am currently learning to <code>code</code> with
-    <a href="www.codefirstgirls.org.uk"> Code First Girls</a>.
-      Going over everything from how the
-      internet works, to creating websites and version control with git. A lot to cover in only 8 weeks!
-      Everyone should learn to code, here are some pretty good reasons why...</p>
-
-  <ol>
-    <li>HTML is cool</li>
-    <li>CSS is cooler</li>
-    <li>JS is the best</li>
-  </ol>
-</div>
-<div class="contrast">
-  <h3>What do you need to create a website?</h3>
-
-  <p>Not much!</p>
-  <ul>
-    <li>A computer (always a good start)</li>
-    <li>A text editor (I am using atom)</li>
-    <li id="lower">A web browser (I am using chrome)</li>
-    <li id="lowest">Some HTML, CSS and JS files</li>
-  </ul>
-</div>
-
-<a href="www.github.com">
-  Follow my progress on github
-</a>
-</body>
-</div>
+  <script src="js\index.js"></script>
+  </body>
+</html>

@@ -1,15 +1,15 @@
 body {
   color: brown;
-  font-family: arial, sans-serif;
+  background-color: #E2C1A5;
+  font-family: "Lucida Bright", Georgia, serif;
   margin: 0px;
 }
 
 div {
-  min-height: 100vh;
-  width: 100vw;
+  min-height: 20em;
 }
 
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
 }
 
@@ -17,71 +17,70 @@ h1 {
   font-size: 5em;
 }
 
-h2 {
-  font-size: 2.5em;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
-h3 {
-  font-size: 1.5em;
+.americano, .latte, .cappuccino, .espresso, .mocha, .surprise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.americano {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.latte {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cappuccino {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.espresso {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.mocha {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.surprise {
+  grid-column: 3;
+  grid-row: 2;
 }
 
 img {
-  display: flex;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 130px;
+  border-radius: 5em;
+  height: 10em;
+  object-fit: cover;
 }
 
-p {
-  width: 40%;
-  margin: 0 auto;
-  font-size: 1.5em;
+.contact-us {
+  text-align: center;
 }
 
-a {
-  color: rgb(0, 0, 0);
-}
-
-ol {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 1.5em;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-li#lower {
-  margin-top: 7%;
-}
-
-li#lowest {
-  margin-bottom: 14%;
-}
-
-div.contrast {
-  background-color: rgb(0,0,0);
-  color: rgb(232,147,246);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-div.contrast {
-  ...
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-li {
-  margin: 0 20px
-  transition: 0.6s ease;
-}
-
-li:hover {
-  font-size: 1.2em;
+.a-button, .e-button, .c-button, .s-button, .m-button, .l-button {
+  background-color: brown;
+  border: none;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  font-family: "Lucida Bright", Georgia, serif;
 }
