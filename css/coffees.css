@@ -48,16 +48,24 @@ div.right {
 }
 
 h1 {
-  text-align: center;
-}
-
-h1 {
   font-family: "Lucida Bright", Georgia, serif;
-  font-size: 75px;
+  font-size: 50px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 150px; }
+  line-height: 100px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: center;
+}
 
 img {
   display: flex;
@@ -134,7 +142,7 @@ transform: rotate(360deg);
 }
 
 .spinner {
-  padding: 5px;
+  padding: 10px;
   margin: 0 auto;
   border-radius: 50%;
   height: 20em;
