@@ -73,7 +73,7 @@ img {
   text-align: center;
 }
 
-.a-button, .e-button, .c-button, .s-button, .m-button, .l-button {
+.a-button, .e-button, .c-button, .s-button, .m-button, .l-button, .submit-email {
   background-color: brown;
   border: none;
   padding: 15px;
