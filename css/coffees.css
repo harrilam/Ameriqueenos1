@@ -159,7 +159,3 @@ display: none;
 #rotator .surprise.show {
 display: block;
 }
-
-#surprise-1, #surprise-2, #surprise-3 {
-  position: relative;
-}

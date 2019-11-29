@@ -48,15 +48,15 @@
     </nav>
 
   <div>
-    <h1>Can't decide which coffee to go for?</h1>
-    <h2>Spin the wheel for a unique surprise!</h2>
+    <h1>Undecided?</h1>
+    <h2>Click on the spinning coffees and let us choose one for you!</h2>
   </div>
 
     <div id="rotator">
       <img class="spinner" img src="surprise-me.jpg" alt="Wild Card">
-      <div class="surprise" id="surprise-0"><a href="affogato.html"></a></div>
-      <div class="surprise" id="surprise-1"><a href="irish-coffee.html"></a></div>
-      <div class="surprise" id="surprise-2"><a href="iced-latte.html"></a></div>
+      <div class="surprise-1" id="surprise-1"><a href="affogato.html"></a></div>
+      <div class="surprise-2" id="surprise-2"><a href="irish-coffee.html"></a></div>
+      <div class="surprise-3" id="surprise-3"><a href="iced-latte.html"></a></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -69,7 +69,7 @@
         var randomSurprise = Math.floor(Math.random() * ( $(this).find('.surprise').length - 0) + 0);
         setTimeout(function(){$('#surprise-' + randomSurprise).addClass('show'); }, 1000);
       });
-
+      
       $(document).ready(function() {console.log('hello')})
     </script>
 </body>
