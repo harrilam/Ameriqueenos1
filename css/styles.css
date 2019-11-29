@@ -3,6 +3,7 @@ body {
   background-color: #E2C1A5;
   font-family: "Lucida Bright", Georgia, serif;
   margin: 0px;
+  text-align: center;
 }
 
 div {
@@ -15,6 +16,10 @@ h1, h2 {
 
 h1 {
   font-size: 5em;
+}
+
+p {
+  font-size: 1em;
 }
 
 .wrapper {
