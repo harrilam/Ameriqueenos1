@@ -30,7 +30,6 @@ div.container {
 }
 
 div.left {
-  width: 47%;
   margin-left: 0;
   margin-right: 3%;
   background-color: #FFF7DB;
@@ -115,19 +114,8 @@ h2 {
   text-align: center;
 }
 
-#rotator {
--webkit-transition: all 3s linear;
--moz-transition: all 3s linear;
--o-transition: all 3s linear;
--ms-transition: all 3s linear;
-}
-
 /* #rotator img:hover {
--webkit-transform: rotate(360deg);
--moz-transform: rotate(360deg);
--o-transform: rotate(360deg);
--ms-transform: rotate(360deg);
-transform: rotate(360deg);
+display: none;
 } */
 
 @keyframes image-spin {
@@ -135,12 +123,16 @@ transform: rotate(360deg);
   100% { transform: rotate(360deg); }
 }
 
-#rotator {
+#rotator img {
   -webkit-animation: image-spin 5s infinite; /* Safari 4+ */
   -moz-animation: image-spin 5s infinite; /* Fx 5+ */
   -o-animation: image-spin 5s infinite; /* Opera 12+ */
   animation: image-spin 5s infinite; /* IE 10+, Fx 29+ */
   border-radius: 50%;
+  -webkit-transition: all 3s linear;
+  -moz-transition: all 3s linear;
+  -o-transition: all 3s linear;
+  -ms-transition: all 3s linear;
 }
 
 .spinner {
@@ -150,4 +142,24 @@ transform: rotate(360deg);
   height: 30em;
   width: 30em;
   object-fit: cover;
+}
+
+#rotator {
+  position: relative;
+}
+
+#rotator .surprise {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+#rotator .surprise.show {
+display: block;
+}
+
+#surprise-1, #surprise-2, #surprise-3 {
+  position: relative;
 }
