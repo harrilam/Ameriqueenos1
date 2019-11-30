@@ -1,20 +1,44 @@
 body {
   color: brown;
   background-color: #E2C1A5;
+}
+
+h1 {
   font-family: "Lucida Bright", Georgia, serif;
-  margin: 0px;
+  margin: 15px;
+  text-align: center;
+  font-size: 5em;
 }
 
 div {
   min-height: 20em;
 }
 
-h1, h2 {
+h2 {
   text-align: center;
+  margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 1.5em;
 }
 
 h1 {
-  font-size: 5em;
+<p style="border:0.5px";
+border-style:solid;
+border-color:#8B4513;
+border-radius:10px;
+padding: 0.2em;
+background-color: #D8C0A8
+}
+
+h2 {
+  <p style="border:0.5px";
+  border-style:solid;
+  border-color:#8B4513;
+  border-radius:5px;
+  padding: 0.1em;
+  background-color: #D8C0A8
+
 }
 
 .wrapper {
@@ -25,10 +49,11 @@ h1 {
 }
 
 .americano, .latte, .cappuccino, .espresso, .mocha, .surprise {
+  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 30px;
+
 }
 
 .americano {
@@ -66,7 +91,9 @@ img {
   margin: 0 auto;
   border-radius: 5em;
   height: 10em;
-  object-fit: cover;
+  border-style:solid;
+  border-color:#8B4513;
+  padding: 0.2em;
 }
 
 .contact-us {
@@ -83,4 +110,17 @@ img {
   font-size: 16px;
   border-radius: 50%;
   font-family: "Lucida Bright", Georgia, serif;
+}
+
+a
+{
+  text-decoration: none;
+  color:#FFFAFA
+}
+
+h3
+{
+
+
+
 }
