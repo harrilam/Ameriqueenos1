@@ -159,3 +159,18 @@ display: none;
 #rotator .surprise.show {
 display: block;
 }
+
+.map {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  margin: 10px auto;
+  border-radius: 6px;
+  width: 47%%;
+  padding-left: 2rem;
+  background-color: #FFF7DB;
+
+}
