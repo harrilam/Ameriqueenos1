@@ -2,6 +2,10 @@
   background-color: #BFEFFF;
 }
 
+
+
+
+
 body {
   background-color: #E2C1A5;
   color: rgb(88, 81, 90);
@@ -30,6 +34,7 @@ div.container {
 }
 
 div.left {
+  width: 47%;
   margin-left: 0;
   margin-right: 3%;
   background-color: #FFF7DB;
@@ -47,14 +52,16 @@ div.right {
 }
 
 h1 {
+  text-align: center;
+}
+
+h1 {
   font-family: "Lucida Bright", Georgia, serif;
-  font-size: 50px;
+  font-size: 75px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 100px;
-  text-align: center;
-}
+  line-height: 150px; }
 
 img {
   display: flex;
@@ -100,77 +107,4 @@ ul li {
   padding: 0px;
   margin: 20px
   transition: 0.6s ease;
-}
-
-/* Surprise me page CSS */
-
-h2 {
-  font-family: "Lucida Bright", Georgia, serif;
-  font-size: 30px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 300;
-  line-height: 50px;
-  text-align: center;
-}
-
-/* #rotator img:hover {
-display: none;
-} */
-
-@keyframes image-spin {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-#rotator img {
-  -webkit-animation: image-spin 5s infinite; /* Safari 4+ */
-  -moz-animation: image-spin 5s infinite; /* Fx 5+ */
-  -o-animation: image-spin 5s infinite; /* Opera 12+ */
-  animation: image-spin 5s infinite; /* IE 10+, Fx 29+ */
-  border-radius: 50%;
-  -webkit-transition: all 3s linear;
-  -moz-transition: all 3s linear;
-  -o-transition: all 3s linear;
-  -ms-transition: all 3s linear;
-}
-
-.spinner {
-  padding: 10px;
-  margin: 0 auto;
-  border-radius: 50%;
-  height: 30em;
-  width: 30em;
-  object-fit: cover;
-}
-
-#rotator {
-  position: relative;
-}
-
-#rotator .surprise {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none;
-}
-
-#rotator .surprise.show {
-display: block;
-}
-
-.map {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px 30px 10px 30px;
-  margin: 10px auto;
-  border-radius: 6px;
-  width: 47%%;
-  padding-left: 2rem;
-  background-color: #FFF7DB;
-
 }
