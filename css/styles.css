@@ -8,13 +8,6 @@ body {
   background-image: url(https://www.chromethemer.com/download/hd-wallpapers/coffee-beans-3840x2160.jpg)
 }
 
-h1 {
-  font-family: "Lucida Bright", Georgia, serif;
-  margin: 15px;
-  text-align: center;
-  font-size: 5em;
-}
-
 div {
   min-height: 20em;
 }
@@ -23,17 +16,13 @@ div {
   min-height: 0.5em;
 }
 
-h2 {
-  text-align: center;
-  margin: auto;
-    width: 70%;
-    padding: 10px;
-    font-size: 1.5em;
-}
-
 h1 {
-<p style="border:0.5px";
-border-style:solid;
+font-family: "Lucida Bright", Georgia, serif;
+margin: 15px;
+text-align: center;
+font-size: 5em;
+border-style: 0.5px;
+border-style: solid;
 border-color:#6E3F16;
 border-radius:10px;
 padding: 0.2em;
@@ -42,8 +31,13 @@ color: #41250B;
 }
 
 h2 {
-  <p style="border:0.5px";
-  border-style:solid;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  font-size: 1.5em;
+  border-style: 0.5px;
+  border-style: solid;
   border-color:#6E3F16;
   border-radius:5px;
   padding: 0.1em;
@@ -114,7 +108,7 @@ img {
 
 .contact-us {
   text-align: center;
-  style="border:0.5px";
+  border-style: 0.5px;
   border-style:solid;
   border-color:#6E3F16;
   border-radius:10px;
@@ -172,10 +166,25 @@ ul {
   line-height: 50px;
 }
 
-.contact-button{
+div.contact-button {
   font-family: "Lucida Bright", Georgia, serif;
   color: #41250B;
   font-size: 1.5em;
+  margin-bottom: 0%;
+  text-align: center;
+  background-color: #D8C0A8;
+  border: none;
+  padding: 0%;
+  text-decoration: none;
+  border-radius: 100%;
+  margin: 0%;
+}
+
+a.contact-button {
+  margin: 20px;
+  padding: 20px;
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #41250B;
 }
 
 .contact-button:hover {
