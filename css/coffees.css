@@ -2,10 +2,6 @@
   background-color: #BFEFFF;
 }
 
-
-
-
-
 body {
   background-image: url(https://www.chromethemer.com/download/hd-wallpapers/coffee-beans-3840x2160.jpg);
   color: rgb(88, 81, 90);
@@ -105,10 +101,7 @@ div.contrast {
   padding-right: 30px;
 }
 
-div.contrast {
-  ...
-}
-
+/*bullet point list*/
 ul {
   font-size: 1.5em;
   font-family: "Lucida Bright", Georgia, serif;
@@ -120,23 +113,27 @@ ul {
   line-height: 50px;
 }
 
+/*bullet point list*/
 ul li {
   padding: 0px;
   margin: 20px
   transition: 0.6s ease;
 }
 
+/*contact us form*/
 div.contact {
   border-radius: 5px;
  background-color: #;
  padding: 20px;
 }
 
+/*contact us form labels*/
 label {
   color: #ffffff;
   font-family: "Lucida Bright", Georgia, serif;
 }
 
+/*contact us form*/
 input[type=text], select, textarea {
   font-family: "Lucida Bright", Georgia, serif;
   color: #ffffff;
@@ -150,6 +147,8 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+
+/*submit button*/
 input[type=submit] {
   font-family: "Lucida Bright", Georgia, serif;
   color: #ffffff;
@@ -164,8 +163,22 @@ input[type=submit]:hover {
   background-color: #b89251;
 }
 
+/*contact us form*/
 form {
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 100px;
+}
+
+/*footer*/
+.card-footer {
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  background-color: #361a04;
+  text-align: center;
+}
+
+.card-footer p{
+  color: #ffffff;
 }
