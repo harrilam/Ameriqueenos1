@@ -5,13 +5,7 @@
 body {
   color: brown;
   background-color: #E2C1A5;
-}
-
-h1 {
-  font-family: "Lucida Bright", Georgia, serif;
-  margin: 15px;
-  text-align: center;
-  font-size: 5em;
+  background-image: url(https://www.chromethemer.com/download/hd-wallpapers/coffee-beans-3840x2160.jpg)
 }
 
 div {
@@ -22,30 +16,33 @@ div {
   min-height: 0.5em;
 }
 
+h1 {
+font-family: "Lucida Bright", Georgia, serif;
+margin: 15px;
+text-align: center;
+font-size: 5em;
+border-style: 0.5px;
+border-style: solid;
+border-color:#6E3F16;
+border-radius:10px;
+padding: 0.2em;
+background-color: #D8C0A8;
+color: #41250B;
+}
+
 h2 {
   text-align: center;
   margin: auto;
-    width: 70%;
-    padding: 10px;
-    font-size: 1.5em;
-}
-
-h1 {
-<p style="border:0.5px";
-border-style:solid;
-border-color:#8B4513;
-border-radius:10px;
-padding: 0.2em;
-background-color: #D8C0A8
-}
-
-h2 {
-  <p style="border:0.5px";
-  border-style:solid;
-  border-color:#8B4513;
+  width: 70%;
+  padding: 10px;
+  font-size: 1.5em;
+  border-style: 0.5px;
+  border-style: solid;
+  border-color:#6E3F16;
   border-radius:5px;
   padding: 0.1em;
-  background-color: #D8C0A8
+  background-color: #D8C0A8;
+  color: #41250B;
 
 }
 
@@ -101,20 +98,36 @@ img.logo {
 }
 
 img {
-  padding: 20px;
+  padding: 0px;
   margin: 0 auto;
   border-radius: 5em;
   height: 10em;
-  
+  border-color:#6E3F16;
+  border-style: solid;
 }
 
 
 .contact-us {
   text-align: center;
+  border-style: 0.5px;
+  border-style:solid;
+  border-color:#6E3F16;
+  border-radius:10px;
+  padding: 0.2em;
+  background-color: #D8C0A8;
+  color: #41250B;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.contact-us p{
+  margin: 20px;
+  font-size: 1em;
 }
 
 .a-button, .e-button, .c-button, .s-button, .m-button, .l-button, .submit-email {
-  background-color: brown;
+  background-color: #D8C0A8;
   border: none;
   padding: 15px;
   text-align: center;
@@ -123,18 +136,27 @@ img {
   font-size: 16px;
   border-radius: 50%;
   font-family: "Lucida Bright", Georgia, serif;
+  border-style: 0.5px;
+  border-style: solid;
+  border-color:#6E3F16;
+  border-radius:10px;
+}
+
+.a-button:hover, .e-button:hover, .c-button:hover, .s-button:hover, .m-button:hover, .l-button:hover, .submit-email:hover{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 a
 {
   text-decoration: none;
-  color:#FFFAFA
+  color:#41250B;
+  text-transform: uppercase;
 }
 
-h3
-{
-
-
+p {
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #41250B;
 
 }
 
@@ -147,4 +169,46 @@ ul {
   font-style: normal;
   font-variant: normal;
   line-height: 50px;
+}
+
+div.contact-button {
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #41250B;
+  font-size: 1.5em;
+  margin-bottom: 0%;
+  text-align: center;
+  background-color: #D8C0A8;
+  border: none;
+  padding: 0%;
+  text-decoration: none;
+  border-radius: 100%;
+  margin: 0%;
+}
+
+a.contact-button {
+  margin: 20px;
+  padding: 20px;
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #41250B;
+}
+
+.contact-button:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/*footer*/
+.card-footer {
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  background-color: #361a04;
+  text-align: center;
+  min-height: 10em;
+}
+
+.card-footer p{
+  color: #ffffff;
+  font-size: 1.5em;
 }
