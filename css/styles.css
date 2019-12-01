@@ -98,11 +98,12 @@ img.logo {
 }
 
 img {
-  padding: 20px;
+  padding: 0px;
   margin: 0 auto;
   border-radius: 5em;
   height: 10em;
-
+  border-color:#6E3F16;
+  border-style: solid;
 }
 
 
@@ -135,6 +136,10 @@ img {
   font-size: 16px;
   border-radius: 50%;
   font-family: "Lucida Bright", Georgia, serif;
+  border-style: 0.5px;
+  border-style: solid;
+  border-color:#6E3F16;
+  border-radius:10px;
 }
 
 .a-button:hover, .e-button:hover, .c-button:hover, .s-button:hover, .m-button:hover, .l-button:hover, .submit-email:hover{
