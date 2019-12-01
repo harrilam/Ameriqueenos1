@@ -188,6 +188,12 @@ div.class {
   background-color: #;
   padding: 20px;
 bottom: 0;
-position: relative; 
+position: relative;
+
+}
+
+div.map {
+  position: absolute;
+    bottom: 10px;
 
 }
