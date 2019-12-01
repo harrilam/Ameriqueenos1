@@ -18,6 +18,10 @@ div {
   min-height: 20em;
 }
 
+.collapse {
+  min-height: 0.5em;
+}
+
 h2 {
   text-align: center;
   margin: auto;
@@ -90,6 +94,12 @@ h2 {
   grid-row: 2;
 }
 
+img.logo {
+  height: 5em;
+  border: none;
+  border-radius: 30px;
+}
+
 img {
   padding: 20px;
   margin: 0 auto;
@@ -99,6 +109,7 @@ img {
   border-color:#8B4513;
   padding: 0.2em;
 }
+
 
 .contact-us {
   text-align: center;
@@ -120,4 +131,22 @@ a
 {
   text-decoration: none;
   color:#FFFAFA
+}
+
+h3
+{
+
+
+
+}
+
+ul {
+  font-size: 1.5em;
+  font-family: "Lucida Bright", Georgia, serif;
+  list-style-type:square;
+  padding: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 50px;
 }
