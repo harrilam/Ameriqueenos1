@@ -143,10 +143,16 @@ img {
   font-family: "Lucida Bright", Georgia, serif;
 }
 
+.a-button:hover, .e-button:hover, .c-button:hover, .s-button:hover, .m-button:hover, .l-button:hover, .submit-email:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 a
 {
   text-decoration: none;
-  color:#FFFAFA
+  color:#FFFAFA;
+  text-transform: uppercase;
 }
 
 p {
