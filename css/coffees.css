@@ -182,3 +182,12 @@ form {
 .card-footer p{
   color: #ffffff;
 }
+
+div.class {
+  border-radius: 5px;
+  background-color: #;
+  padding: 20px;
+bottom: 0;
+position: relative; 
+
+}
