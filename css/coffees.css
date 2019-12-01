@@ -236,7 +236,16 @@ position: relative;
 }
 
 div.map {
-  position: absolute;
-    bottom: 10px;
+  position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#FFF7DB;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 6px;
+    border-color:#8B4513;
+    border-radius:10px;
+    padding: 0.2em;
 
 }
