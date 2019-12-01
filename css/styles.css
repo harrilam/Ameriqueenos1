@@ -132,7 +132,7 @@ img {
 }
 
 .a-button, .e-button, .c-button, .s-button, .m-button, .l-button, .submit-email {
-  background-color: brown;
+  background-color: #D8C0A8;
   border: none;
   padding: 15px;
   text-align: center;
@@ -151,7 +151,7 @@ img {
 a
 {
   text-decoration: none;
-  color:#FFFAFA;
+  color:#41250B;
   text-transform: uppercase;
 }
 
