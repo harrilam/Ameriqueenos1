@@ -58,7 +58,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .americano {
@@ -102,10 +101,10 @@ img {
   margin: 0 auto;
   border-radius: 5em;
   height: 10em;
+  object-fit: cover;
   border-color:#6E3F16;
   border-style: solid;
 }
-
 
 .contact-us {
   text-align: center;
@@ -121,7 +120,7 @@ img {
   margin-right: 400px;
 }
 
-.contact-us p{
+.contact-us p {
   margin: 20px;
   font-size: 1em;
 }
@@ -147,8 +146,7 @@ img {
   text-decoration: none;
 }
 
-a
-{
+a {
   text-decoration: none;
   color:#41250B;
   text-transform: uppercase;
@@ -157,7 +155,6 @@ a
 p {
   font-family: "Lucida Bright", Georgia, serif;
   color: #41250B;
-
 }
 
 ul {
