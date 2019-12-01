@@ -114,6 +114,21 @@ img {
 
 .contact-us {
   text-align: center;
+  style="border:0.5px";
+  border-style:solid;
+  border-color:#6E3F16;
+  border-radius:10px;
+  padding: 0.2em;
+  background-color: #D8C0A8;
+  color: #41250B;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.contact-us p{
+  margin: 20px;
+  font-size: 1em;
 }
 
 .a-button, .e-button, .c-button, .s-button, .m-button, .l-button, .submit-email {
@@ -149,4 +164,15 @@ ul {
   font-style: normal;
   font-variant: normal;
   line-height: 50px;
+}
+
+.contact-button{
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #41250B;
+  font-size: 1.5em;
+}
+
+.contact-button:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
