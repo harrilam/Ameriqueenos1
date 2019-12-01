@@ -209,6 +209,7 @@ div.map {
   position: relative;
     left: 0;
     bottom: 0;
+    height: 300px;
     width: 100%;
     background-color:#FFF7DB;
     text-align: center;
