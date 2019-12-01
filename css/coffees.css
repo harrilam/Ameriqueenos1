@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url(https://www.chromethemer.com/download/hd-wallpapers/coffee-beans-3840x2160.jpg);
+  background-color: #E2C1A5;
   color: rgb(88, 81, 90);
   font-family: arial, sans-serif;
   margin: 0px;
@@ -20,7 +20,6 @@ div {
 
 .row {
   display: flex;
-
 }
 
 div.container {
@@ -30,7 +29,6 @@ div.container {
 }
 
 div.left {
-  width: 47%;
   margin-left: 0;
   margin-right: 3%;
   background-color: #FFF7DB;
@@ -38,43 +36,23 @@ div.left {
 
 div.left p {
   width: 100%;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 div.right {
-  width: 47%%;
   padding-left: 2rem;
   margin-left: 1%;
   background-color: #FFF7DB;
 }
 
-div.right ul {
-  margin-top: 5%;
-  margin-left: 5%;
-}
-
-
-div.heading h1 {
+h1 {
   font-family: "Lucida Bright", Georgia, serif;
-  font-size: 75px;
+  font-size: 50px;
   font-style: normal;
   font-variant: normal;
-  font-weight: bold;
-  line-height: 150px;
+  font-weight: 700;
+  line-height: 100px;
   text-align: center;
-  color: #ffffff;
- }
-
- div.heading{
-   background-color: #361a04;
-   margin-left: 400px;
-   margin-right: 400px;
-   margin-top: 50px;
-   border: 1px;
-   border-radius: 50px;
- }
+}
 
 img {
   display: flex;
@@ -101,11 +79,14 @@ div.contrast {
   padding-right: 30px;
 }
 
-/*bullet point list*/
+div.contrast {
+  ...
+}
+
 ul {
   font-size: 1.5em;
   font-family: "Lucida Bright", Georgia, serif;
-  list-style-type:square;
+  list-style-type: square;
   padding: 0px;
   margin: 0px;
   font-style: normal;
@@ -113,72 +94,66 @@ ul {
   line-height: 50px;
 }
 
-/*bullet point list*/
 ul li {
   padding: 0px;
   margin: 20px
   transition: 0.6s ease;
 }
 
-/*contact us form*/
-div.contact {
-  border-radius: 5px;
- background-color: #;
- padding: 20px;
-}
+/* Surprise me page CSS */
 
-/*contact us form labels*/
-label {
-  color: #ffffff;
+h2 {
   font-family: "Lucida Bright", Georgia, serif;
-}
-
-/*contact us form*/
-input[type=text], select, textarea {
-  font-family: "Lucida Bright", Georgia, serif;
-  color: #ffffff;
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-
-/*submit button*/
-input[type=submit] {
-  font-family: "Lucida Bright", Georgia, serif;
-  color: #ffffff;
-  background-color: #361a04;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #b89251;
-}
-
-/*contact us form*/
-form {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 100px;
-}
-
-/*footer*/
-.card-footer {
-  left: 0;
-  bottom: 10;
-  width: 100%;
-  background-color: #361a04;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 50px;
   text-align: center;
 }
 
-.card-footer p{
-  color: #ffffff;
+/* #rotator img:hover {
+display: none;
+} */
+
+@keyframes image-spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#rotator img {
+  -webkit-animation: image-spin 5s infinite; /* Safari 4+ */
+  -moz-animation: image-spin 5s infinite; /* Fx 5+ */
+  -o-animation: image-spin 5s infinite; /* Opera 12+ */
+  animation: image-spin 5s infinite; /* IE 10+, Fx 29+ */
+  border-radius: 50%;
+  -webkit-transition: all 3s linear;
+  -moz-transition: all 3s linear;
+  -o-transition: all 3s linear;
+  -ms-transition: all 3s linear;
+}
+
+.spinner {
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 30em;
+  width: 30em;
+  object-fit: cover;
+}
+
+#rotator {
+  position: relative;
+}
+
+#rotator .surprise {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+#rotator .surprise.show {
+display: block;
 }
