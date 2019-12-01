@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/coffees.css" </link>
     <script src="popper.js"></script>
+    <script src="js\index.js"></script>
     <title>Americano</title>
   </head>
   <body>
@@ -58,8 +59,6 @@
           <p> The Americano will be served without milk unless asked for, and only
           consists of an espresso shot (or two) and water!
           </p>
-          <br>
-          <a class="twitter-hashtag-button" href="https://twitter.com/intent/tweet?button_hashtag=AmeriQueeno">Tweet #AmeriQueeno</a>
         </div>
 
       <div class="col-sm right">
@@ -69,28 +68,29 @@
           <li>A cheap option: <a href="https://caffenero.com/uk/store/cambridge-kings-parade-197/?utm_source=GMB&utm_medium=organic&utm_campaign=cambridge_kings_parade"> Caffe Nero</a></li>
           <li>What's near me?</li>
         </ul>
+      </div>
 
-        <div class="map"
-          <h2>Coffee near me:</h2>
+      <div class="map"
+        <h2>Coffee near me:</h2>
 
-          <div id="map"></div>
-          <script>
-          function initMap() {
-            var uluru = {lat: -25.344, lng: 131.036};
-            var map = new google.maps.Map(
-                  document.getElementById('map'), {zoom: 4, center: uluru});
-          </script>
-          </div>
+        <div id="map"></div>
+        <script>
+        function initMap() {
+          var uluru = {lat: -25.344, lng: 131.036};
+          var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: uluru});
+        </script>
+        </div>
 //maps.googleapis.com/maps/api/place/textsearch/xml?query=restaurants+in+Sydney&key=YOUR_API_KEY
     <!-- Map -->
 
-    <div class="card-footer text-muted">
-      <p>&copy; AmeriQueeno<p>
-    </div>
-    
-    <script src="js\index.js"></script>
+      <div class="card-footer text-muted">
+        <p>&copy; AmeriQueeno<p>
+      </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
   </body>
 </html>
