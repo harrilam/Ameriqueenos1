@@ -1,119 +1,111 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="js/scripts.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="js/scripts.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Ameriqueenos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153590321-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-153590321-1');
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="ameriQueeno-logo.jpg" width="100" height="100" alt="">
+      </a>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
-      <img class="logo" src="ameriQueeno-logo.jpg" width="100" height="100" alt="">
-    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              What's your brew?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="americano.html">Americano</a>
+              <a class="dropdown-item" href="latte.html">Latte</a>
+              <a class="dropdown-item" href="cappuccino.html">Cappuccino</a>
+              <a class="dropdown-item" href="espresso.html">Espresso</a>
+              <a class="dropdown-item" href="mocha.html">Mocha</a>
+              <a class="dropdown-item" href="wild_card.html">Surprise</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            What's your brew?
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="americano.html">Americano</a>
-            <a class="dropdown-item" href="latte.html">Latte</a>
-            <a class="dropdown-item" href="cappuccino.html">Cappuccino</a>
-            <a class="dropdown-item" href="espresso.html">Espresso</a>
-            <a class="dropdown-item" href="mocha.html">Mocha</a>
-            <div class="dropdown-divider" id=myDropdown"></div>
-            <a class="dropdown-item" href="surprise.html">Surprise</a>
-          </div>
-        </li>
-      </ul>
-
-    </div>
-  </nav>
-
-
-  <title>Ameriqueenos</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153590321-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-153590321-1');
-  </script>
-</head>
-<body>
     <div>
-    <h1>What's your brew?</h1>
-    <h2>
-    <p> We believe in good coffee. Whatever your brew, we've got you covered by unveiling some of the best coffee houses in Cambridge, UK.</p>
-    <p>Select your coffee below to find local coffee houses:</p>
-  </h2>
-  </div>
-
-  <div class="wrapper">
-    <div class="americano">
-      <a href="americano.html"><img src="americano.jpeg" alt="Americano" width="200px"></a>
-      <a href="americano.html" class="a-button">Americano</a>
+      <h1>What's your brew?</h1>
+      <h2>
+        <p> We believe in good coffee. Whatever your brew, we've got you covered by unveiling some of the best coffee houses in Cambridge, UK.</p>
+        <p>Select your coffee below to find local coffee houses:</p>
+      </h2>
     </div>
 
-    <div class="latte">
-      <a href="latte.html"><img src="latte.jpeg" alt="Latte" width="200px"></a>
-      <a href="latte.html" class="l-button">Latte</a>
+    <div class="wrapper">
+      <div class="americano">
+        <a href="americano.html"><img src="americano.jpeg" alt="Americano" width="200px"></a>
+        <a href="americano.html" class="a-button">Americano</a>
+      </div>
+
+      <div class="latte">
+        <a href="latte.html"><img src="latte.jpeg" alt="Latte" width="200px"></a>
+        <a href="latte.html" class="l-button">Latte</a>
+      </div>
+
+      <div class="cappuccino">
+        <a href="cappuccino.html"><img src="cappuccino.jpg" alt="Cappuccino" width="200px"></a>
+        <a href="cappuccino.html" class="c-button">Cappuccino</a>
+      </div>
+
+      <div class="espresso">
+        <a href="espresso.html"><img src="espresso.jpg" alt="Espresso" width="200px"></a>
+        <a href="espresso.html" class="e-button">Espresso</a>
+      </div>
+
+      <div class="mocha">
+        <a href="mocha.html"><img src="mocha.jpeg.jpg" alt="Mocha" width="200px"></a>
+        <a href="mocha.html" class="m-button">Mocha</a>
+      </div>
+
+      <div class="surprise">
+        <a href="wild_card.html"><img src="surprise-me.jpg" alt="Surprise" width="200px"></a>
+        <a href="wild_card.html" class="s-button">Surprise me</a>
+      </div>
     </div>
 
-    <div class="cappuccino">
-      <a href="cappuccino.html"><img src="cappuccino.jpg" alt="Cappuccino" width="200px"></a>
-      <a href="cappuccino.html" class="c-button">Cappuccino</a>
+    <div class="contact-us">
+      <h3>
+        <p>We want to hear from you!</p>
+        <p>Whether it's feedback, thoughts or you want to get involved, get in touch:</p>
+        <br>
+        <a href="contact-us.html" class="contact-button">Contact Us</a>
+      </h3>
     </div>
 
-    <div class="espresso">
-      <a href="espresso.html"><img src="espresso.jpg" alt="Espresso" width="200px"></a>
-      <a href="espresso.html" class="e-button">Espresso</a>
+    <div class="card-footer text-muted">
+      <p>&copy; AmeriQueeno<p>
     </div>
 
-    <div class="mocha">
-      <a href="mocha.html"><img src="mocha.jpeg.jpg" alt="Mocha" width="200px"></a>
-      <a href="mocha.html" class="m-button">Mocha</a>
-    </div>
+    <script src="js\index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <div class="surprise">
-      <a href="wild_card.html"><img src="surprise-me.jpg" alt="Surprise" width="200px"></a>
-      <a href="wild_card.html" class="s-button">Surprise me</a>
-    </div>
-  </div>
-
-  <div class="contact-us">
-    <h3>
-      <p>We want to hear from you!</p>
-      <p>Whether it's feedback, thoughts or you want to get involved, get in touch:</p>
-      <br>
-      <a href="contact-us.html" class="contact-button">Contact Us</a>
-    </h3>
-  </div>
-
-
-
-
-
-  <script src="js\index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-  <div class="card-footer text-muted">
-  <p>&copy; AmeriQueeno<p>
-  </div>
-
-</body>
+  </body>
 </html>
