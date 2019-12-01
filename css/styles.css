@@ -33,19 +33,21 @@ h2 {
 h1 {
 <p style="border:0.5px";
 border-style:solid;
-border-color:#8B4513;
+border-color:#6E3F16;
 border-radius:10px;
 padding: 0.2em;
-background-color: #D8C0A8
+background-color: #D8C0A8;
+color: #41250B;
 }
 
 h2 {
   <p style="border:0.5px";
   border-style:solid;
-  border-color:#8B4513;
+  border-color:#6E3F16;
   border-radius:5px;
   padding: 0.1em;
-  background-color: #D8C0A8
+  background-color: #D8C0A8;
+  color: #41250B;
 
 }
 
@@ -133,11 +135,10 @@ a
   color:#FFFAFA
 }
 
-h3
-{
-
-
-
+p {
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #41250B;
+  
 }
 
 ul {
