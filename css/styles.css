@@ -92,6 +92,11 @@ h2 {
   grid-row: 2;
 }
 
+.container-fluid {
+  width: 100%;
+  padding:0px;
+}
+
 img.logo {
   height: 5em;
   border: none;
