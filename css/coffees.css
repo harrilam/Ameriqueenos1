@@ -35,13 +35,21 @@ div.left {
 }
 
 div.left p {
+  font-family: "Lucida Bright", Georgia, serif;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 div.right {
   padding-left: 2rem;
   margin-left: 1%;
   background-color: #FFF7DB;
+}
+
+div.right ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -114,6 +122,7 @@ h2 {
 
 div.heading{
    background-color: #361a04;
+   opacity: 0.8;
    color: #ffffff;
    margin-left: 400px;
    margin-right: 400px;
@@ -169,6 +178,28 @@ display: none;
 display: block;
 }
 
+#rotator a, #rotator a:nth-of-type(2), #rotator a:nth-of-type(3) {
+  position:absolute;
+  z-index: 999;
+  height: 50%;
+  width: 50%
+  display: inline-block;
+}
+
+#rotator a {
+  left: 0;
+  top: 0;
+}
+
+#rotator a:nth-of-type(2) {
+  left: 50%;
+  top: 0;
+}
+
+#rotator a:nth-of-type(3) {
+  left: 0;
+  top: 50%;
+}
 
 /*contact us form*/
 input[type=text], select, textarea {
@@ -211,6 +242,7 @@ input[type=submit] {
    margin-bottom: 100px;
  }
 
+
 /*footer*/
 .card-footer {
   left: 0;
@@ -224,4 +256,29 @@ input[type=submit] {
 .card-footer p{
   color: #ffffff;
   font-size: 1.5em;
+}
+
+div.class {
+  border-radius: 5px;
+  background-color: #;
+  padding: 20px;
+bottom: 0;
+position: relative;
+
+}
+
+div.map {
+  position: relative;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 80%;
+    background-color:#FFF7DB;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 6px;
+    border-color:#8B4513;
+    border-radius:10px;
+    padding: 0.2em;
+
 }
