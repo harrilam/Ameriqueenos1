@@ -90,10 +90,6 @@ div.contrast {
   padding-right: 30px;
 }
 
-div.contrast {
-  ...
-}
-
 ul {
   font-size: 1.5em;
   font-family: "Lucida Bright", Georgia, serif;
@@ -230,13 +226,12 @@ div.class {
   border-radius: 5px;
   background-color: #;
   padding: 20px;
-bottom: 0;
-position: relative;
-
+  bottom: 0;
+  position: relative;
 }
 
 div.map {
-  position: relative;
+    position: relative;
     left: 0;
     bottom: 0;
     height: 300px;
@@ -250,5 +245,4 @@ div.map {
     padding: 0.2em;
     font-family: "Lucida Bright", Georgia, serif;
     margin-bottom: 50px;
-
 }
