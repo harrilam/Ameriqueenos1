@@ -92,11 +92,18 @@ h2 {
   grid-row: 2;
 }
 
-/*
-.container-fluid {
+/* .container-fluid {
   width: 100%;
-  padding:0px;
-}*/ 
+  min-width: 1000px;
+  padding: 0px;
+  margin: 0px auto;
+} */
+
+/* .col {
+  width: 100%;
+  padding: 0px;
+  margin: 0px auto;
+} */
 
 @viewport {
   width: device-width;
