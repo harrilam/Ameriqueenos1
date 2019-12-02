@@ -37,12 +37,19 @@ div.left {
 div.left p {
   font-family: "Lucida Bright", Georgia, serif;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 div.right {
   padding-left: 2rem;
   margin-left: 1%;
   background-color: #FFF7DB;
+}
+
+div.right ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
