@@ -2,6 +2,7 @@
   background-color: #BFEFFF;
 }
 
+
 body {
   background-image: url(https://www.chromethemer.com/download/hd-wallpapers/coffee-beans-3840x2160.jpg);
   color: rgb(88, 81, 90);
@@ -32,6 +33,7 @@ div.left {
   margin-left: 0;
   margin-right: 3%;
   background-color: #FFF7DB;
+  border-radius: 30px;
 }
 
 div.left p {
@@ -45,6 +47,7 @@ div.right {
   padding-left: 2rem;
   margin-left: 1%;
   background-color: #FFF7DB;
+  border-radius: 30px;
 }
 
 div.right ul {
@@ -85,10 +88,6 @@ div.contrast {
   background-color: rgb(254, 242, 214);
   color: rgb(232,147,246);
   padding-right: 30px;
-}
-
-div.contrast {
-  ...
 }
 
 ul {
@@ -136,6 +135,7 @@ div.heading{
 display: none;
 } */
 
+/* spinning coffees css */
 @keyframes image-spin {
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -160,45 +160,6 @@ display: none;
   height: 30em;
   width: 30em;
   object-fit: cover;
-}
-
-#rotator {
-  position: relative;
-}
-
-#rotator .surprise {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none;
-}
-
-#rotator .surprise.show {
-display: block;
-}
-
-#rotator a, #rotator a:nth-of-type(2), #rotator a:nth-of-type(3) {
-  position:absolute;
-  z-index: 999;
-  height: 50%;
-  width: 50%
-  display: inline-block;
-}
-
-#rotator a {
-  left: 0;
-  top: 0;
-}
-
-#rotator a:nth-of-type(2) {
-  left: 50%;
-  top: 0;
-}
-
-#rotator a:nth-of-type(3) {
-  left: 0;
-  top: 50%;
 }
 
 /*contact us form*/
@@ -244,16 +205,19 @@ input[type=submit] {
 
 
 /*footer*/
-.card-footer {
+div.card-footer {
   left: 0;
   bottom: 10;
   width: 100%;
+  min-width: 100%;
   background-color: #361a04;
   text-align: center;
   min-height: 10em;
+  opacity: 0.8;
 }
 
 .card-footer p{
+  font-family: "Lucida Bright", Georgia, serif;
   color: #ffffff;
   font-size: 1.5em;
 }
@@ -262,13 +226,12 @@ div.class {
   border-radius: 5px;
   background-color: #;
   padding: 20px;
-bottom: 0;
-position: relative;
-
+  bottom: 0;
+  position: relative;
 }
 
 div.map {
-  position: relative;
+    position: relative;
     left: 0;
     bottom: 0;
     height: 300px;
@@ -280,5 +243,6 @@ div.map {
     border-color:#8B4513;
     border-radius:10px;
     padding: 0.2em;
-
+    font-family: "Lucida Bright", Georgia, serif;
+    margin-bottom: 50px;
 }
