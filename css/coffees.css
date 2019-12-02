@@ -35,13 +35,21 @@ div.left {
 }
 
 div.left p {
+  font-family: "Lucida Bright", Georgia, serif;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 div.right {
   padding-left: 2rem;
   margin-left: 1%;
   background-color: #FFF7DB;
+}
+
+div.right ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -111,6 +119,18 @@ h2 {
   line-height: 50px;
   text-align: center;
 }
+
+div.heading{
+   background-color: #361a04;
+   opacity: 0.8;
+   color: #ffffff;
+   margin-left: 400px;
+   margin-right: 400px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   border: 1px;
+   border-radius: 40px;
+ }
 
 /* #rotator img:hover {
 display: none;
