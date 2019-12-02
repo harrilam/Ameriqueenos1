@@ -214,6 +214,7 @@ div.card-footer {
   background-color: #361a04;
   text-align: center;
   min-height: 10em;
+  opacity: 0.8;
 }
 
 .card-footer p{
