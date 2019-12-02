@@ -181,6 +181,48 @@ display: block;
   top: 50%;
 }
 
+/*contact us form*/
+input[type=text], select, textarea {
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #ffffff;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+label {
+  color: #ffffff;
+  font-family: "Lucida Bright", Georgia, serif;
+}
+
+/*submit button*/
+input[type=submit] {
+  font-family: "Lucida Bright", Georgia, serif;
+  color: #ffffff;
+  background-color: #361a04;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  input[type=submit]:hover {
+  background-color: #b89251;
+ }
+
+ /*contact us form*/
+ form {
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 100px;
+ }
+
+
 /*footer*/
 .card-footer {
   left: 0;
