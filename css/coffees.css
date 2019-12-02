@@ -32,6 +32,7 @@ div.left {
   margin-left: 0;
   margin-right: 3%;
   background-color: #FFF7DB;
+  border-radius: 30px;
 }
 
 div.left p {
@@ -45,6 +46,7 @@ div.right {
   padding-left: 2rem;
   margin-left: 1%;
   background-color: #FFF7DB;
+  border-radius: 30px;
 }
 
 div.right ul {
